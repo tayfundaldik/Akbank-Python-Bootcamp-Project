@@ -133,7 +133,7 @@ lib = Library()
 def Menu (lib):
     isOkay = True
     while isOkay:
-        choice = input("*** MENU***\n1) List Books\n2) Add Book\n3) Remove Book\nq) Exit\nEnter your choice (1-4) : ")
+        choice = input("*** MENU***\n1) List Books\n2) Add Book\n3) Remove Book\nq) Exit\nEnter your choice (1-3 or q) : ")
         if choice == "1":
             lib.ListBooks()
         elif choice == "2":
